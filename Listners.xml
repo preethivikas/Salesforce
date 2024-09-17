@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name ="Automation">
+<parameter name="Username" value="preethi@rcb.com"></parameter>
+<parameter name="password" value="Vik@s123"></parameter>
+<parameter name="browser" value="chrome"></parameter>
+
+<listeners>
+<listener class-name="com.training.listners.TestListener">
+
+</listener>
+
+</listeners>
+
+<test name="Salesforce">
+<classes>
+
+<class name="com.training.testcase.LoginTest"/>
+
+
+</classes>
+
+</test>
+</suite>
