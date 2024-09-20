@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="67.076" tests="9" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="jansi.mode" value="force"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.boot.library.path" value="C:\Users\jpras\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\jpras\eclipse-workspace\TestNgSalesforce"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\jpras\eclipse-workspace\TestNgSalesforce"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\jpras\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="stderr.encoding" value="windows-1252"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\jpras\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf361748830864610542.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="stdout.encoding" value="windows-1252"/>
+    <property name="java.library.path" value="C:\Users\jpras\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/jpras/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149/jre/bin/server;C:/Users/jpras/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath:C:\Preethi Training\Software\chromedriver-win64\chromedriver-win64\chromedriver.exe:;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Preethi Training\Software\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\jpras\AppData\Local\Android\Sdk\build-tools;C:\Users\jpras\AppData\Local\Android\Sdk\platforms;C:\Users\jpras\AppData\Local\Android\Sdk\platform-tools;C:\Users\jpras\AppData\Local\Android\Sdk\tools;C:\Users\jpras\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jpras\AppData\Local\Microsoft\WindowsApps;C:\Preethi Training\Software\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Preethi Training\Software\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Users\jpras\AppData\Roaming\npm;;C:\WINDOWS\system32;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\jpras"/>
+    <property name="user.timezone" value="America/Chicago"/>
+    <property name="file.encoding" value="windows-1252"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="jpras"/>
+    <property name="java.class.path" value="C:\Users\jpras\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_3.9.700.20240602-2313\jars\plexus-classworlds-2.8.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -Dstyle.color=always install"/>
+    <property name="java.home" value="C:\Users\jpras\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\jpras\eclipse-workspace\TestNgSalesforce\EMBEDDED"/>
+    <property name="style.color" value="always"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="m2e.build.project.data.socket.port" value="56204"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="verifyLoginError" classname="com.training.testcase.LoginTest" time="1.995">
+    <failure message="Skip execution" type="java.lang.Exception">java.lang.Exception: Skip execution
+	at com.training.testcase.LoginTest.verifyLoginError(LoginTest.java:37)
+</failure>
+    <system-out><![CDATA[*** Test Suite Salesforce started ***
+\
+C:\Users\jpras\eclipse-workspace\TestNgSalesforce\properties\application.properties
+*** Running test method verifyLoginError...
+Directory already exists: C:\Users\jpras\eclipse-workspace\TestNgSalesforce\ExtentReport
+Please enter your password.
+*** Test execution verifyLoginError failed...
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Starting ChromeDriver 128.0.6613.137 (fe621c5aa2d6b987e964fb1b5066833da5fb613d-refs/branch-heads/6613@{#1711}) on port 19783
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 19783.
+Sep 19, 2024 8:26:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifylogintosaleforce" classname="com.training.testcase.LoginTest" time="2.463"/>
+  <testcase name="verifyrememberuser" classname="com.training.testcase.LoginTest" time="5.118"/>
+  <testcase name="validateloginerror" classname="com.training.testcase.LoginTest" time="0.771"/>
+  <testcase name="verifycreateaccount" classname="com.training.testcase.AccountTest" time="13.694"/>
+  <testcase name="verifycreatenewview" classname="com.training.testcase.AccountTest" time="7.729"/>
+  <testcase name="verifyeditnewview" classname="com.training.testcase.AccountTest" time="3.815">
+    <failure message="Cannot locate element with text: Akshara1&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-1P5CU94&apos;, ip: &apos;192.168.1.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Akshara1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1P5CU94', ip: '192.168.1.208', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+	at com.training.testcase.AccountTest.verifyeditnewview(AccountTest.java:76)
+</failure>
+    <system-out><![CDATA[\
+C:\Users\jpras\eclipse-workspace\TestNgSalesforce\properties\application.properties
+*** Running test method verifyeditnewview...
+*** Test execution verifyeditnewview failed...
+]]></system-out>
+  </testcase>
+  <testcase name="verifylastactivity" classname="com.training.testcase.AccountTest" time="9.459"/>
+  <testcase name="verifymergeaccount" classname="com.training.testcase.AccountTest" time="8.649"/>
+</testsuite>

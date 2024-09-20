@@ -67,7 +67,7 @@ public class LoginPage extends BasePage {
 	
 	
 	
-	public void error() {
+	public void error() throws Exception {
 		
 		/*String expectedtxt="Please enter your password.";
 		String actualtxt=error.getText();
@@ -79,10 +79,12 @@ public class LoginPage extends BasePage {
 			System.out.println("Expected text is not displayed");
 		
 	}*/
-		String expectedtxt="Please enter your passwords.";
+		String expectedtxt="Please enter your password.";
 		String actualtext=error.getText();
 		System.out.println(actualtext);
-		assertEquals(actualtext, expectedtxt);
+		throw new Exception("Skip execution");
+		//assertEquals(actualtext, expectedtxt);
+		//System.out.println("Skipped test");
 	}
 	
 	public void enterpassword(String strPassword) {

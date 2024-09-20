@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Automation" class="navigator-link ">
-                    <span>C:\Users\jpras\eclipse-workspace\TestNgSalesforce\Listners.xml</span>
+                    <span>C:\Users\jpras\eclipse-workspace\TestNgSalesforce\TestNg.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                    <span class="method-stats">4 methods, 1 failed,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -116,11 +116,6 @@
                       <a href="#" panel-name="suite-Automation" class="show-methods passed suite-Automation"> (show)</a> <!-- show-methods passed suite-Automation -->
                     </span>
                     <div class="method-list-content passed suite-Automation">
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Automation" title="com.training.testcase.LoginTest" class="method navigator-link" hash-for-method="Testforgetpassword">Testforgetpassword</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Automation" title="com.training.testcase.LoginTest" class="method navigator-link" hash-for-method="validateloginerror">validateloginerror</a> <!-- method navigator-link -->
@@ -160,11 +155,11 @@
                   </a> <!-- verifyLoginError(preethi@rcb.com) -->
                   <span class="method-name">verifyLoginError</span>
                   <span class="parameters">(preethi@rcb.com)</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [Please enter your passwords.] but found [Please enter your password.]
+                  <div class="stack-trace">java.lang.Exception: Skip execution
 	at com.training.pages.LoginPage.error(LoginPage.java:85)
 	at com.training.testcase.LoginTest.verifyLoginError(LoginTest.java:37)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-... Removed 33 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -176,13 +171,6 @@
               <span class="class-name">com.training.testcase.LoginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Testforgetpassword">
-                  </a> <!-- Testforgetpassword -->
-                  <span class="method-name">Testforgetpassword</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
                   <a name="validateloginerror">
@@ -211,7 +199,7 @@
         </div> <!-- panel Automation -->
         <div panel-name="test-xml-Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\jpras\eclipse-workspace\TestNgSalesforce\Listners.xml</span>
+            <span class="header-content">C:\Users\jpras\eclipse-workspace\TestNgSalesforce\TestNg.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -221,9 +209,6 @@
   &lt;parameter name=&quot;password&quot; value=&quot;Vik@s123&quot;/&gt;
   &lt;parameter name=&quot;Username&quot; value=&quot;preethi@rcb.com&quot;/&gt;
   &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-  &lt;listeners&gt;
-    &lt;listener class-name=&quot;com.training.listners.TestListener&quot;/&gt;
-  &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Salesforce&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.training.testcase.LoginTest&quot;/&gt;
@@ -266,32 +251,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'verifyrememberuser')
 data.setCell(0, 2, 'com.training.testcase.LoginTest')
-data.setCell(0, 3, 6876);
+data.setCell(0, 3, 9204);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'verifylogintosaleforce')
 data.setCell(1, 2, 'com.training.testcase.LoginTest')
-data.setCell(1, 3, 3711);
+data.setCell(1, 3, 3883);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'verifyLoginError')
 data.setCell(2, 2, 'com.training.testcase.LoginTest')
-data.setCell(2, 3, 2054);
+data.setCell(2, 3, 3058);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateloginerror')
 data.setCell(3, 2, 'com.training.testcase.LoginTest')
-data.setCell(3, 3, 1577);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'Testforgetpassword')
-data.setCell(4, 2, 'com.training.testcase.LoginTest')
-data.setCell(4, 3, 932);
+data.setCell(3, 3, 2553);
 window.suiteTableData['Automation']= { tableData: data, tableDiv: 'times-div-Automation'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <span class="suite-total-time">Total running time: 18 seconds</span>
               <div id="times-div-Automation">
               </div> <!-- times-div-Automation -->
             </div> <!-- times-div -->
@@ -306,9 +287,16 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Automation" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">1 ignored method</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.training.testcase.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Testforgetpassword</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Automation" class="panel">
@@ -323,62 +311,50 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">Testforgetpassword</span>
-                <span class="method-start">4064 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">5009 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod</span>
-                <span class="method-start">5315 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">validateloginerror</span>
-                <span class="method-start">6600 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">teardown</span>
-                <span class="method-start">8179 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">beforemethod</span>
-                <span class="method-start">8552 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">verifyLoginError(preethi@rcb.com)</span>
-                <span class="method-start">9850 ms</span>
+                <span class="method-start">4727 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">11908 ms</span>
+                <span class="method-start">7794 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod</span>
-                <span class="method-start">12317 ms</span>
+                <span class="method-start">8301 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifylogintosaleforce(preethi@rcb.com, Vik@s123)</span>
-                <span class="method-start">13544 ms</span>
+                <span class="method-start">10338 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">17257 ms</span>
+                <span class="method-start">14222 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">beforemethod</span>
-                <span class="method-start">20755 ms</span>
+                <span class="method-start">17728 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyrememberuser(preethi@rcb.com, Vik@s123)</span>
-                <span class="method-start">22083 ms</span>
+                <span class="method-start">19326 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">28960 ms</span>
+                <span class="method-start">28531 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">beforemethod</span>
+                <span class="method-start">28931 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateloginerror</span>
+                <span class="method-start">30789 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">33346 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

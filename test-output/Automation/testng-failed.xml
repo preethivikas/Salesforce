@@ -4,9 +4,6 @@
   <parameter name="password" value="Vik@s123"/>
   <parameter name="Username" value="preethi@rcb.com"/>
   <parameter name="browser" value="chrome"/>
-  <listeners>
-    <listener class-name="com.training.listners.TestListener"/>
-  </listeners>
   <test thread-count="5" name="Salesforce(failed)">
     <classes>
       <class name="com.training.testcase.LoginTest">

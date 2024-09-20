@@ -1,41 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+<testng-results ignored="1" total="5" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-16T10:53:08 GMT-05:00" name="Automation" finished-at="2024-09-16T10:53:38 GMT-05:00" duration-ms="29253">
+  <suite started-at="2024-09-19T12:52:36 GMT-05:00" name="Automation" finished-at="2024-09-19T12:53:10 GMT-05:00" duration-ms="33994">
     <groups>
     </groups>
-    <test started-at="2024-09-16T10:53:08 GMT-05:00" name="Salesforce" finished-at="2024-09-16T10:53:38 GMT-05:00" duration-ms="29253">
+    <test started-at="2024-09-19T12:52:36 GMT-05:00" name="Salesforce" finished-at="2024-09-19T12:53:10 GMT-05:00" duration-ms="33994">
       <class name="com.training.testcase.LoginTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:08 GMT-05:00" name="beforemethod" finished-at="2024-09-16T10:53:12 GMT-05:00" duration-ms="4063" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:52:36 GMT-05:00" name="beforemethod" finished-at="2024-09-19T12:52:40 GMT-05:00" duration-ms="4726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="Testforgetpassword()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:12 GMT-05:00" name="Testforgetpassword" finished-at="2024-09-16T10:53:13 GMT-05:00" duration-ms="932" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Testforgetpassword -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:13 GMT-05:00" name="teardown" finished-at="2024-09-16T10:53:14 GMT-05:00" duration-ms="306" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:14 GMT-05:00" name="beforemethod" finished-at="2024-09-16T10:53:15 GMT-05:00" duration-ms="1284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="validateloginerror()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:15 GMT-05:00" name="validateloginerror" finished-at="2024-09-16T10:53:17 GMT-05:00" duration-ms="1577" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateloginerror -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:17 GMT-05:00" name="teardown" finished-at="2024-09-16T10:53:17 GMT-05:00" duration-ms="371" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:17 GMT-05:00" name="beforemethod" finished-at="2024-09-16T10:53:18 GMT-05:00" duration-ms="1298" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforemethod -->
-        <test-method signature="verifyLoginError(java.lang.String)[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:18 GMT-05:00" name="verifyLoginError" finished-at="2024-09-16T10:53:20 GMT-05:00" duration-ms="2054" status="FAIL">
+        <test-method signature="verifyLoginError(java.lang.String)[pri:1, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:52:40 GMT-05:00" name="verifyLoginError" finished-at="2024-09-19T12:52:43 GMT-05:00" duration-ms="3058" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -43,18 +19,12 @@
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
+          <exception class="java.lang.Exception">
             <message>
-              <![CDATA[expected [Please enter your passwords.] but found [Please enter your password.]]]>
+              <![CDATA[Skip execution]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Please enter your passwords.] but found [Please enter your password.]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
+              <![CDATA[java.lang.Exception: Skip execution
 at com.training.pages.LoginPage.error(LoginPage.java:85)
 at com.training.testcase.LoginTest.verifyLoginError(LoginTest.java:37)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -87,19 +57,19 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+          </exception> <!-- java.lang.Exception -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:20 GMT-05:00" name="teardown" finished-at="2024-09-16T10:53:21 GMT-05:00" duration-ms="408" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:52:43 GMT-05:00" name="teardown" finished-at="2024-09-19T12:52:44 GMT-05:00" duration-ms="504" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:21 GMT-05:00" name="beforemethod" finished-at="2024-09-16T10:53:22 GMT-05:00" duration-ms="1227" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:52:44 GMT-05:00" name="beforemethod" finished-at="2024-09-19T12:52:46 GMT-05:00" duration-ms="2037" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifylogintosaleforce(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:22 GMT-05:00" name="verifylogintosaleforce" finished-at="2024-09-16T10:53:26 GMT-05:00" duration-ms="3711" status="PASS">
+        <test-method signature="verifylogintosaleforce(java.lang.String,java.lang.String)[pri:2, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:52:46 GMT-05:00" name="verifylogintosaleforce" finished-at="2024-09-19T12:52:50 GMT-05:00" duration-ms="3883" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,15 +85,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogintosaleforce -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:26 GMT-05:00" name="teardown" finished-at="2024-09-16T10:53:29 GMT-05:00" duration-ms="3497" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:52:50 GMT-05:00" name="teardown" finished-at="2024-09-19T12:52:53 GMT-05:00" duration-ms="3505" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:29 GMT-05:00" name="beforemethod" finished-at="2024-09-16T10:53:30 GMT-05:00" duration-ms="1328" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:52:53 GMT-05:00" name="beforemethod" finished-at="2024-09-19T12:52:55 GMT-05:00" duration-ms="1597" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifyrememberuser(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:30 GMT-05:00" name="verifyrememberuser" finished-at="2024-09-16T10:53:37 GMT-05:00" duration-ms="6876" status="PASS">
+        <test-method signature="verifyrememberuser(java.lang.String,java.lang.String)[pri:3, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:52:55 GMT-05:00" name="verifyrememberuser" finished-at="2024-09-19T12:53:04 GMT-05:00" duration-ms="9204" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,7 +109,19 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyrememberuser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@6404f418]" started-at="2024-09-16T10:53:37 GMT-05:00" name="teardown" finished-at="2024-09-16T10:53:38 GMT-05:00" duration-ms="246" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:53:04 GMT-05:00" name="teardown" finished-at="2024-09-19T12:53:05 GMT-05:00" duration-ms="399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:53:05 GMT-05:00" name="beforemethod" finished-at="2024-09-19T12:53:06 GMT-05:00" duration-ms="1857" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="validateloginerror()[pri:4, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:53:06 GMT-05:00" name="validateloginerror" finished-at="2024-09-19T12:53:09 GMT-05:00" duration-ms="2553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateloginerror -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@316bcf94]" started-at="2024-09-19T12:53:09 GMT-05:00" name="teardown" finished-at="2024-09-19T12:53:10 GMT-05:00" duration-ms="580" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

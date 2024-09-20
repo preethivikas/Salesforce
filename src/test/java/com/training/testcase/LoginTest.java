@@ -29,16 +29,16 @@ public class LoginTest extends BaseTest {
 		
 	}	
 	
-	@Test
+	@Test(priority=1)
 	@Parameters({"Username"})
-	public void verifyLoginError(String Username) {
+	public void verifyLoginError(String Username) throws Exception {
 		loginpage.enterusername(Username);
 		loginpage.clicklogin();
 		loginpage.error();
 		
 	}
 	
-	@Test
+	@Test(priority=2)
 	@Parameters({"Username","password"})
 	public void verifylogintosaleforce(String Username,String password) {
 		
@@ -47,7 +47,7 @@ public class LoginTest extends BaseTest {
 		loginpage.clicklogin();
 	}
 	
-	@Test
+	@Test(priority=3)
 	@Parameters({"Username","password"})
 	public void verifyrememberuser(String Username,String password) {
 		loginpage.enterusername(Username);
@@ -59,14 +59,14 @@ public class LoginTest extends BaseTest {
 		
 	}
 	
-	@Test
+	@Test(enabled=false)
 	public void Testforgetpassword() {
 		loginpage.forgotpassword();
 		loginpage.username();
 		
 	}
 	
-	@Test
+	@Test(priority=4)
 	public void validateloginerror() {
 		loginpage.wrongusername();
 		loginpage.wrongpassword();

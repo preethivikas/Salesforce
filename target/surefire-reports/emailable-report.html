@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Automation</th></tr>
+<tr><td><a href="#t0">Salesforce</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">20,934</td><td></td><td></td></tr>
+<tr><th colspan="8">Automation (0)</th></tr>
+<tr class="stripe"><td><a href="#t1">Salesforce</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">45,239</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">7</th><th class="num">0</th><th class="num">0</th><th class="num attn">2</th><th class="num">66,173</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Automation</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Salesforce &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.training.testcase.LoginTest</td><td><a href="#m0">verifyLoginError</a></td><td rowspan="1">1726795587867</td><td rowspan="1">1979</td></tr><tr><th colspan="4">Salesforce &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.training.testcase.LoginTest</td><td><a href="#m1">validateloginerror</a></td><td rowspan="1">1726795605899</td><td rowspan="1">770</td></tr><tr class="passedeven"><td><a href="#m2">verifylogintosaleforce</a></td><td rowspan="1">1726795591669</td><td rowspan="1">2464</td></tr><tr class="passedeven"><td><a href="#m3">verifyrememberuser</a></td><td rowspan="1">1726795599351</td><td rowspan="1">5119</td></tr></tbody>
+<tbody><tr><th colspan="4">Automation (0)</th></tr></tbody><tbody id="t1"><tr><th colspan="4">Salesforce &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.training.testcase.AccountTest</td><td><a href="#m4">verifyeditnewview</a></td><td rowspan="1">1726795630199</td><td rowspan="1">3814</td></tr><tr><th colspan="4">Salesforce &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.training.testcase.AccountTest</td><td><a href="#m5">verifycreateaccount</a></td><td rowspan="1">1726795608383</td><td rowspan="1">13694</td></tr><tr class="passedeven"><td><a href="#m6">verifycreatenewview</a></td><td rowspan="1">1726795622367</td><td rowspan="1">7728</td></tr><tr class="passedeven"><td><a href="#m7">verifylastactivity</a></td><td rowspan="1">1726795634108</td><td rowspan="1">9460</td></tr><tr class="passedeven"><td><a href="#m8">verifymergeaccount</a></td><td rowspan="1">1726795643774</td><td rowspan="1">8649</td></tr></tbody>
+</table>
+<h2>Salesforce</h2><h3 id="m0">com.training.testcase.LoginTest#verifyLoginError</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>preethi@rcb.com</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.Exception: Skip execution
+	at com.training.pages.LoginPage.error(LoginPage.java:85)
+	at com.training.testcase.LoginTest.verifyLoginError(LoginTest.java:37)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.training.testcase.LoginTest#validateloginerror</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.training.testcase.LoginTest#verifylogintosaleforce</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>preethi@rcb.com</td><td>Vik@s123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.training.testcase.LoginTest#verifyrememberuser</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>preethi@rcb.com</td><td>Vik@s123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Salesforce</h2><h3 id="m4">com.training.testcase.AccountTest#verifyeditnewview</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>preethi@rcb.com</td><td>Vik@s123</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Cannot locate element with text: Akshara1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-1P5CU94&apos;, ip: &apos;192.168.1.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;
+Driver info: driver.version: unknown
+	at org.openqa.selenium.support.ui.Select.selectByVisibleText(Select.java:147)
+	at com.training.pages.AccountPage.editview(AccountPage.java:186)
+	at com.training.testcase.AccountTest.verifyeditnewview(AccountTest.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 30 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.training.testcase.AccountTest#verifycreateaccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>preethi@rcb.com</td><td>Vik@s123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.training.testcase.AccountTest#verifycreatenewview</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>preethi@rcb.com</td><td>Vik@s123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.training.testcase.AccountTest#verifylastactivity</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>preethi@rcb.com</td><td>Vik@s123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.training.testcase.AccountTest#verifymergeaccount</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>preethi@rcb.com</td><td>Vik@s123</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

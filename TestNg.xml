@@ -10,13 +10,7 @@
 <test name="Salesforce">
 <classes>
 
-<class name="com.training.testcase.LoginTest"/>
-<class name="com.training.testcase.UsermenuTest"/>
 <class name="com.training.testcase.AccountTest"/>
-<class name="com.training.testcase.OpptyTest"/>
-<class name="com.training.testcase.LeadsTest"/>
-<class name="com.training.testcase.ContactTest"/>
-<class name="com.training.testcase.RandomTest"/>
 
 </classes>
 

@@ -42,9 +42,10 @@
 	         <artifactId>maven-surefire-plugin</artifactId>
 	         <version>2.19.1</version>
 	         <configuration>
-	              <includes>
-	               <include>Listners.xml</include>
-	              </includes>
+	             <suiteXmlFiles>
+               <suiteXmlFile>Listners.xml</suiteXmlFile>
+                <suiteXmlFile>TestNg.xml</suiteXmlFile>
+          </suiteXmlFiles>
 	         </configuration>
 	     </plugin>
   </plugins>

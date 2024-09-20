@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 9, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 67.076 sec <<< FAILURE! - in TestSuite
+verifyLoginError(com.training.testcase.LoginTest)  Time elapsed: 1.995 sec  <<< FAILURE!
+java.lang.Exception: Skip execution
+	at com.training.testcase.LoginTest.verifyLoginError(LoginTest.java:37)
+
+verifyeditnewview(com.training.testcase.AccountTest)  Time elapsed: 3.815 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Cannot locate element with text: Akshara1
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-1P5CU94', ip: '192.168.1.208', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: driver.version: unknown
+	at com.training.testcase.AccountTest.verifyeditnewview(AccountTest.java:76)
+
