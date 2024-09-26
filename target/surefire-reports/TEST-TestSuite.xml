@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="80.994" tests="9" errors="0" skipped="0" failures="2">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="29.54" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -26,7 +26,7 @@
     <property name="user.variant" value=""/>
     <property name="stderr.encoding" value="windows-1252"/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\jpras\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf5063883214249474074.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\jpras\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf13975032254695930861.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="stdout.encoding" value="windows-1252"/>
     <property name="java.library.path" value="C:\Users\jpras\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.1.v20210528-1205\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/jpras/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149/jre/bin/server;C:/Users/jpras/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_22.0.1.v20240426-1149/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath:C:\Preethi Training\Software\chromedriver-win64\chromedriver-win64\chromedriver.exe:;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Preethi Training\Software\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\jpras\AppData\Local\Android\Sdk\build-tools;C:\Users\jpras\AppData\Local\Android\Sdk\platforms;C:\Users\jpras\AppData\Local\Android\Sdk\platform-tools;C:\Users\jpras\AppData\Local\Android\Sdk\tools;C:\Users\jpras\AppData\Local\Android\Sdk\tools\bin;C:\Program Files\Java\jdk-17\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\jpras\AppData\Local\Microsoft\WindowsApps;C:\Preethi Training\Software\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Preethi Training\Software\apache-maven-3.9.8-bin\apache-maven-3.9.8\bin;C:\Users\jpras\AppData\Roaming\npm;;C:\WINDOWS\system32;;."/>
@@ -57,52 +57,11 @@
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
-    <property name="m2e.build.project.data.socket.port" value="58436"/>
+    <property name="m2e.build.project.data.socket.port" value="57637"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="verifyLoginError" classname="com.training.testcase.LoginTest" time="3.644">
-    <failure message="Skip execution" type="java.lang.Exception">java.lang.Exception: Skip execution
-	at com.training.testcase.LoginTest.verifyLoginError(LoginTest.java:37)
-</failure>
-    <system-out><![CDATA[*** Test Suite Salesforce started ***
-\
-C:\Users\jpras\eclipse-workspace\TestNgSalesforce\properties\application.properties
-*** Running test method verifyLoginError...
-Directory already exists: C:\Users\jpras\eclipse-workspace\TestNgSalesforce\ExtentReport
-Please enter your password.
-*** Test execution verifyLoginError failed...
-]]></system-out>
-    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
-SLF4J(W): Defaulting to no-operation (NOP) logger implementation
-SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Starting ChromeDriver 128.0.6613.137 (fe621c5aa2d6b987e964fb1b5066833da5fb613d-refs/branch-heads/6613@{#1711}) on port 38889
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully on port 38889.
-Sep 20, 2024 10:56:30 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-]]></system-err>
-  </testcase>
-  <testcase name="verifylogintosaleforce" classname="com.training.testcase.LoginTest" time="4.145"/>
-  <testcase name="verifyrememberuser" classname="com.training.testcase.LoginTest" time="8.339"/>
-  <testcase name="validateloginerror" classname="com.training.testcase.LoginTest" time="2.49"/>
-  <testcase name="verifycreateaccount" classname="com.training.testcase.AccountTest" time="13.175"/>
-  <testcase name="verifycreatenewview" classname="com.training.testcase.AccountTest" time="7.322"/>
-  <testcase name="verifyeditnewview" classname="com.training.testcase.AccountTest" time="4.471">
-    <failure message="Cannot locate element with text: Akshara1&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;DESKTOP-1P5CU94&apos;, ip: &apos;192.168.1.208&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;16.0.1&apos;&#10;Driver info: driver.version: unknown" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: 
-Cannot locate element with text: Akshara1
-For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-1P5CU94', ip: '192.168.1.208', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
-Driver info: driver.version: unknown
-	at com.training.testcase.AccountTest.verifyeditnewview(AccountTest.java:76)
-</failure>
-    <system-out><![CDATA[\
-C:\Users\jpras\eclipse-workspace\TestNgSalesforce\properties\application.properties
-*** Running test method verifyeditnewview...
-*** Test execution verifyeditnewview failed...
-]]></system-out>
-  </testcase>
-  <testcase name="verifylastactivity" classname="com.training.testcase.AccountTest" time="10.354"/>
-  <testcase name="verifymergeaccount" classname="com.training.testcase.AccountTest" time="6.305"/>
+  <testcase name="verifyLoginError" classname="com.training.testcase.LoginTest" time="1.884"/>
+  <testcase name="verifylogintosaleforce" classname="com.training.testcase.LoginTest" time="2.536"/>
+  <testcase name="verifyrememberuser" classname="com.training.testcase.LoginTest" time="5.984"/>
+  <testcase name="validateloginerror" classname="com.training.testcase.LoginTest" time="1.071"/>
 </testsuite>
