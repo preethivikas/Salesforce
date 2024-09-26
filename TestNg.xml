@@ -10,7 +10,7 @@
 <test name="Salesforce">
 <classes>
 
-<class name="com.training.testcase.AccountTest"/>
+<class name="com.training.testcase.LoginTest"/>
 
 </classes>
 

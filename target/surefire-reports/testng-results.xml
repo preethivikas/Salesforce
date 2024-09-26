@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="9" passed="7" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-19T20:26:25 GMT-05:00" name="Automation" finished-at="2024-09-19T20:26:46 GMT-05:00" duration-ms="20934">
+  <suite started-at="2024-09-20T10:56:26 GMT-05:00" name="Automation" finished-at="2024-09-20T10:57:01 GMT-05:00" duration-ms="34710">
     <groups>
     </groups>
-    <test started-at="2024-09-19T20:26:25 GMT-05:00" name="Salesforce" finished-at="2024-09-19T20:26:46 GMT-05:00" duration-ms="20934">
+    <test started-at="2024-09-20T10:56:26 GMT-05:00" name="Salesforce" finished-at="2024-09-20T10:57:01 GMT-05:00" duration-ms="34710">
       <class name="com.training.testcase.LoginTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:25 GMT-05:00" name="beforemethod" finished-at="2024-09-19T20:26:27 GMT-05:00" duration-ms="1880" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:26 GMT-05:00" name="beforemethod" finished-at="2024-09-20T10:56:30 GMT-05:00" duration-ms="4076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifyLoginError(java.lang.String)[pri:1, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:27 GMT-05:00" name="verifyLoginError" finished-at="2024-09-19T20:26:29 GMT-05:00" duration-ms="1979" status="FAIL">
+        <test-method signature="verifyLoginError(java.lang.String)[pri:1, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:30 GMT-05:00" name="verifyLoginError" finished-at="2024-09-20T10:56:34 GMT-05:00" duration-ms="3608" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -64,15 +64,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginError -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:29 GMT-05:00" name="teardown" finished-at="2024-09-19T20:26:30 GMT-05:00" duration-ms="420" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:34 GMT-05:00" name="teardown" finished-at="2024-09-20T10:56:35 GMT-05:00" duration-ms="814" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:30 GMT-05:00" name="beforemethod" finished-at="2024-09-19T20:26:31 GMT-05:00" duration-ms="1385" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:35 GMT-05:00" name="beforemethod" finished-at="2024-09-20T10:56:37 GMT-05:00" duration-ms="1942" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifylogintosaleforce(java.lang.String,java.lang.String)[pri:2, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:31 GMT-05:00" name="verifylogintosaleforce" finished-at="2024-09-19T20:26:34 GMT-05:00" duration-ms="2464" status="PASS">
+        <test-method signature="verifylogintosaleforce(java.lang.String,java.lang.String)[pri:2, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:37 GMT-05:00" name="verifylogintosaleforce" finished-at="2024-09-20T10:56:41 GMT-05:00" duration-ms="4143" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -88,15 +88,15 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylogintosaleforce -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:34 GMT-05:00" name="teardown" finished-at="2024-09-19T20:26:38 GMT-05:00" duration-ms="3915" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:41 GMT-05:00" name="teardown" finished-at="2024-09-20T10:56:45 GMT-05:00" duration-ms="3930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:38 GMT-05:00" name="beforemethod" finished-at="2024-09-19T20:26:39 GMT-05:00" duration-ms="1301" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:45 GMT-05:00" name="beforemethod" finished-at="2024-09-20T10:56:47 GMT-05:00" duration-ms="2010" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifyrememberuser(java.lang.String,java.lang.String)[pri:3, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:39 GMT-05:00" name="verifyrememberuser" finished-at="2024-09-19T20:26:44 GMT-05:00" duration-ms="5119" status="PASS">
+        <test-method signature="verifyrememberuser(java.lang.String,java.lang.String)[pri:3, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:47 GMT-05:00" name="verifyrememberuser" finished-at="2024-09-20T10:56:55 GMT-05:00" duration-ms="8340" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -112,35 +112,35 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyrememberuser -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:44 GMT-05:00" name="teardown" finished-at="2024-09-19T20:26:44 GMT-05:00" duration-ms="224" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:55 GMT-05:00" name="teardown" finished-at="2024-09-20T10:56:56 GMT-05:00" duration-ms="354" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:44 GMT-05:00" name="beforemethod" finished-at="2024-09-19T20:26:45 GMT-05:00" duration-ms="1204" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:56 GMT-05:00" name="beforemethod" finished-at="2024-09-20T10:56:58 GMT-05:00" duration-ms="1994" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="validateloginerror()[pri:4, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:45 GMT-05:00" name="validateloginerror" finished-at="2024-09-19T20:26:46 GMT-05:00" duration-ms="770" status="PASS">
+        <test-method signature="validateloginerror()[pri:4, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:56:58 GMT-05:00" name="validateloginerror" finished-at="2024-09-20T10:57:00 GMT-05:00" duration-ms="2492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateloginerror -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@65f095f8]" started-at="2024-09-19T20:26:46 GMT-05:00" name="teardown" finished-at="2024-09-19T20:26:46 GMT-05:00" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.training.testcase.LoginTest@7671cb68]" started-at="2024-09-20T10:57:00 GMT-05:00" name="teardown" finished-at="2024-09-20T10:57:01 GMT-05:00" duration-ms="860" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- com.training.testcase.LoginTest -->
     </test> <!-- Salesforce -->
   </suite> <!-- Automation -->
-  <suite started-at="2024-09-19T20:26:47 GMT-05:00" name="Automation (0)" finished-at="2024-09-19T20:27:32 GMT-05:00" duration-ms="45239">
+  <suite started-at="2024-09-20T10:57:02 GMT-05:00" name="Automation (0)" finished-at="2024-09-20T10:57:46 GMT-05:00" duration-ms="44218">
     <groups>
     </groups>
-    <test started-at="2024-09-19T20:26:47 GMT-05:00" name="Salesforce" finished-at="2024-09-19T20:27:32 GMT-05:00" duration-ms="45239">
+    <test started-at="2024-09-20T10:57:02 GMT-05:00" name="Salesforce" finished-at="2024-09-20T10:57:46 GMT-05:00" duration-ms="44218">
       <class name="com.training.testcase.AccountTest">
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:26:47 GMT-05:00" name="beforemethod" finished-at="2024-09-19T20:26:48 GMT-05:00" duration-ms="1198" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:02 GMT-05:00" name="beforemethod" finished-at="2024-09-20T10:57:03 GMT-05:00" duration-ms="1820" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifycreateaccount(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:26:48 GMT-05:00" name="verifycreateaccount" finished-at="2024-09-19T20:27:02 GMT-05:00" duration-ms="13694" status="PASS">
+        <test-method signature="verifycreateaccount(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:03 GMT-05:00" name="verifycreateaccount" finished-at="2024-09-20T10:57:17 GMT-05:00" duration-ms="13177" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -156,11 +156,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycreateaccount -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:27:02 GMT-05:00" name="beforemethod" finished-at="2024-09-19T20:27:02 GMT-05:00" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:17 GMT-05:00" name="beforemethod" finished-at="2024-09-20T10:57:17 GMT-05:00" duration-ms="154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifycreatenewview(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:27:02 GMT-05:00" name="verifycreatenewview" finished-at="2024-09-19T20:27:10 GMT-05:00" duration-ms="7728" status="PASS">
+        <test-method signature="verifycreatenewview(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:17 GMT-05:00" name="verifycreatenewview" finished-at="2024-09-20T10:57:24 GMT-05:00" duration-ms="7321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,11 +176,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifycreatenewview -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:27:10 GMT-05:00" name="beforemethod" finished-at="2024-09-19T20:27:10 GMT-05:00" duration-ms="102" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:24 GMT-05:00" name="beforemethod" finished-at="2024-09-20T10:57:24 GMT-05:00" duration-ms="145" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifyeditnewview(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:27:10 GMT-05:00" name="verifyeditnewview" finished-at="2024-09-19T20:27:14 GMT-05:00" duration-ms="3814" status="FAIL">
+        <test-method signature="verifyeditnewview(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:24 GMT-05:00" name="verifyeditnewview" finished-at="2024-09-20T10:57:29 GMT-05:00" duration-ms="4473" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -247,11 +247,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyeditnewview -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:27:14 GMT-05:00" name="beforemethod" finished-at="2024-09-19T20:27:14 GMT-05:00" duration-ms="94" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:29 GMT-05:00" name="beforemethod" finished-at="2024-09-20T10:57:29 GMT-05:00" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifylastactivity(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:27:14 GMT-05:00" name="verifylastactivity" finished-at="2024-09-19T20:27:23 GMT-05:00" duration-ms="9460" status="PASS">
+        <test-method signature="verifylastactivity(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:29 GMT-05:00" name="verifylastactivity" finished-at="2024-09-20T10:57:39 GMT-05:00" duration-ms="10354" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -267,11 +267,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifylastactivity -->
-        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:27:23 GMT-05:00" name="beforemethod" finished-at="2024-09-19T20:27:23 GMT-05:00" duration-ms="205" status="PASS">
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:39 GMT-05:00" name="beforemethod" finished-at="2024-09-20T10:57:40 GMT-05:00" duration-ms="263" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforemethod -->
-        <test-method signature="verifymergeaccount(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@611889f4]" started-at="2024-09-19T20:27:23 GMT-05:00" name="verifymergeaccount" finished-at="2024-09-19T20:27:32 GMT-05:00" duration-ms="8649" status="PASS">
+        <test-method signature="verifymergeaccount(java.lang.String,java.lang.String)[pri:0, instance:com.training.testcase.AccountTest@35aea049]" started-at="2024-09-20T10:57:40 GMT-05:00" name="verifymergeaccount" finished-at="2024-09-20T10:57:46 GMT-05:00" duration-ms="6306" status="PASS">
           <params>
             <param index="0">
               <value>

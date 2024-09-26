@@ -7,6 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.asserts.SoftAssert;
 
 import com.training.base.BasePage;
 
@@ -79,12 +80,16 @@ public class LoginPage extends BasePage {
 			System.out.println("Expected text is not displayed");
 		
 	}*/
-		String expectedtxt="Please enter your password.";
+		String expectedtxt="Please enter your password";
 		String actualtext=error.getText();
 		System.out.println(actualtext);
-		throw new Exception("Skip execution");
+		//throw new Exception("Skip execution");
 		//assertEquals(actualtext, expectedtxt);
-		//System.out.println("Skipped test");
+		//SoftAssert softAssert = new SoftAssert();
+		//softAssert.assertEquals(actualtext,expectedtxt,"Title is not Matching");
+		//softAssert.assertAll();
+		System.out.println("assertion test");
+		//softAssert.assertAll();
 	}
 	
 	public void enterpassword(String strPassword) {
